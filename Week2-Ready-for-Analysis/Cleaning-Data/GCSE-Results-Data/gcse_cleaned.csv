@@ -1,0 +1,116 @@
+firstname,lastname,gender,dob,auth,subject1,grade1,subject2,grade2,subject3,grade3,subject4,grade4,subject5,grade5,has_duplicate_subjects
+CHARLOTTE, Wright,F,1977-03-06, Bath/Avon,English Literature,A,Maths,U,English Language,Invalid,Geography,U,History,G,False
+LEIGH, Roberts,U,1977-05-31, Herts,English Language,E,Double Science,B,English Literature,C,Geography,E,Maths,B,False
+MICHAEL, Clark,M,1977-04-04, Wolverhampton,English Literature,U,Maths,F,Double Science,C,Geology,G,History,A*,False
+LUKE, White,M,1978-11-25, Bath/Avon,Maths,D,English Language,A*,Double Science,G,Geography,C,English Literature,E,False
+TAYLOR, Clark,M,1979-08-13, Bath/Avon,Maths,A,History,NA,English Literature,F,English Language,C,Double Science,D,False
+JADE, Green,U,1977-07-20, Wolverhampton,English Literature,F,English Literature,A*,Maths,E,History,B,Double Science,B,True
+ALEXANDRA, Roberts,F,1979-05-06, Bath/Avon,English Language,Invalid,English Literature,G,Geology,A*,English Literature,U,Maths,B,True
+MORGAN, Wilson,M,1979-12-29, Herts,English Language,E,Double Science,B,NA,U,Geography,E,Maths,A,False
+JORDAN, Jackson,F,1978-07-17, Wolverhampton,English Literature,A*,English Literature,G,Double Science,G,Maths,Invalid,English Language,U,True
+KELLY, Green,M,1977-06-13, Wolverhampton,Geography,U,English Literature,D,Maths,A*,Double Science,G,History,F,False
+THOMAS, Smith,M,1978-05-13, Herts,NA,F,English Language,D,Double Science,A*,Double Science,G,Geology,F,True
+LUKE, Green,M,1977-10-02, Wolverhampton,English Literature,U,English Language,B,Geography,G,Maths,E,Double Science,G,False
+VICTORIA, Evans,F,1979-02-14, Herts,NA,F,History,U,English Literature,A,Double Science,U,Geography,U,False
+BENJAMIN, Clark,M,1978-03-18, Herts,Geography,A,Double Science,D,NA,E,English Language,B,Maths,F,False
+CHARLES, Taylor,M,1978-06-02, Wolverhampton,NA,A*,Double Science,G,English Literature,C,Maths,A,History,NA,False
+KELLY, Clark,M,1978-08-24, Herts,English Language,A*,Maths,C,Geology,A*,Double Science,A,English Literature,U,False
+SHANNON, Clark,F,1979-04-25, Herts,History,A+,Maths,D,Double Science,U,English Language,F,English Literature,A,False
+MARK, Wood,M,1978-03-23, Wolverhampton,History,F,Double Science,F,Maths,B,English Literature,A,Geography,U,False
+GEORGINA, Williams,F,1978-09-19, Bath/Avon,Maths,D,Double Science,B,English Literature,A*,English Language,G,History,U,False
+BENJAMIN, Williams,M,1978-01-31, Herts,English Language,U,Geography,U,Maths,D,Double Science,A*,English Literature,D,False
+LUKE, Wright,M,1979-04-09, Herts,History,A,English Language,A*,English Literature,D,Geography,U,Double Science,F,False
+BETHANY, Wilson,F,1978-01-06, Wolverhampton,Double Science,D,English Language,E,Maths,D,History,B,English Literature,Invalid,False
+LEWIS, ,M,1977-03-13, Bath/Avon,Geology,F,NA,U,English Literature,C,Maths,D,English Language,C,False
+JORDAN, Green,M,1978-11-04, Wolverhampton,History,E,English Language,G,Geography,D,English Literature,D,Maths,G,False
+GEORGIA, Smith,F,1977-05-26, Bath/Avon,Double Science,C,English Literature,U,History,NA,Maths,U,Geography,A,False
+NATHAN, Clark,M,1979-07-10, Herts,Geography,G,Double Science,A,History,D,English Language,G,Maths,A,False
+DAVID, Davies,M,1977-05-01, Bath/Avon,English Language,E,NA,E,History,D,Geography,D,Double Science,E,False
+CHARLOTTE, Clark,F,1978-08-31, Herts,History,D,English Language,U,Maths,G,Geography,A*,English Literature,B,False
+DANIEL, Jones,M,1978-02-14, Wolverhampton,English Language,D,Geography,B,Maths,A*,English Literature,A*,Double Science,C,False
+UNKNOWN, Wood,F,1979-02-04, Herts,Maths,F,Double Science,A,English Literature,D,History,C,Geography,F,False
+CHARLES, White,M,1977-11-13, Herts,Double Science,E,Maths,D,Geography,G,English Language,B,History,A*,False
+UNKNOWN, Wright,F,1978-01-25, Wolverhampton,History,B,Geography,F,English Literature,C,Double Science,D,Geology,A,False
+AMY, Jackson,F,1977-03-03, Herts,Geology,F,Double Science,D,English Language,U,History,E,English Literature,A*,False
+HOLLY, Thompson,F,1979-11-09, Wolverhampton,History,F,English Literature,U,Geography,A*,Double Science,U,Maths,D,False
+MELISSA, Green,O,1978-04-09, Herts,English Literature,F,Double Science,F,History,D,Maths,D,Geography,F,False
+MORGAN, Roberts,M,1978-09-17, Bath/Avon,Double Science,U,English Literature,A+,History,F,English Language,A,Geography,D,False
+RYAN, Jackson,M,1977-11-15, Herts,Geography,G,English Literature,B,Double Science,E,English Language,G,Maths,Invalid,False
+AMY, White,O,1977-11-02, Herts,Geography,A*,English Language,U,Maths,C,Double Science,B,History,D,False
+GEORGIA, Evans,F,1978-06-05, Bath/Avon,Double Science,A*,NA,U,Maths,F,English Literature,A+,English Literature,G,True
+ALEXIS, Smith,F,1978-07-29, Herts,Geography,Invalid,Maths,F,Double Science,E,English Language,F,History,B,False
+ELEANOR, Wilson,F,1985-05-15, Herts,Maths,E,Double Science,A,History,F,Geography,A*,English Literature,A,False
+BRADLEY, Roberts,M,1979-05-20, Bath/Avon,English Literature,D,English Language,Invalid,Maths,C,Geology,U,Geography,C,False
+LOUISE, Taylor,F,1973-07-29, Wolverhampton,Geography,A,History,E,English Language,A*,English Literature,G,Maths,A*,False
+GEMMA, Thompson,U,1979-07-23, Bath/Avon,Geology,U,Double Science,G,NA,A,English Literature,F,Geography,U,False
+JAMIE, Walker,M,1978-04-08, Wolverhampton,English Literature,A*,Maths,D,History,C,English Language,A*,Geography,D,False
+JORDAN, Clark,M,1977-10-12, Herts,English Literature,A+,Double Science,C,English Language,F,Maths,B,Geography,B,False
+REBECCA, Brown,F,1978-07-11, Wolverhampton,Maths,C,English Language,E,English Literature,NA,History,U,Double Science,B,False
+ALEXIS, Brown,M,1978-09-16, Bath/Avon,English Literature,C,Maths,G,Double Science,A*,English Language,U,History,F,False
+SARAH, Thompson,F,1979-12-17, Wolverhampton,English Language,D,Geology,E,Double Science,G,Maths,B,History,C,False
+RYAN, White,M,1978-02-10, Wolverhampton,English Literature,F,English Literature,D,English Literature,E,English Literature,C,History,U,True
+NATALIE, Brown,F,1978-12-08, Herts,English Literature,C,Double Science,G,Maths,A*,History,U,Geology,F,False
+UNKNOWN, Walker,M,1977-06-30, Bath/Avon,Double Science,A*,Maths,G,Geography,E,History,D,Geology,B,False
+SCOTT, ,M,1978-10-23, Bath/Avon,Maths,G,English Language,D,Double Science,F,Geography,B,Geography,B,True
+JACOB, Wilson,M,1979-02-22, Bath/Avon,English Language,E,Maths,E,English Literature,B,Double Science,Invalid,History,D,False
+DANIELLE, Wright,F,1979-07-26, Bath/Avon,English Language,G,Double Science,C,History,C,NA,U,Maths,C,False
+MICHAEL, Hall,M,1979-07-26, Wolverhampton,Double Science,B,History,C,English Literature,G,Geography,B,Maths,E,False
+JORDAN, Williams,M,1977-01-20, Bath/Avon,Geography,U,History,B,History,NA,English Language,U,English Language,A*,True
+JORDAN, Johnson,M,1978-09-02, Bath/Avon,NA,NA,English Literature,G,History,A,Maths,A,Geography,F,False
+HAYLEY, Davies,F,1978-08-05, Bath/Avon,English Language,C,Maths,A*,English Literature,C,History,A,Double Science,E,False
+REBECCA, White,F,1977-05-03, Bath/Avon,Maths,U,Double Science,D,English Language,B,History,U,Geography,G,False
+UNKNOWN, Walker,F,1978-01-20, Wolverhampton,Maths,F,English Language,D,History,B,Double Science,G,Geography,A*,False
+BEN, Johnson,M,1978-09-02, Bath/Avon,History,A*,Geography,B,Double Science,E,English Literature,D,Maths,E,False
+EMILY, Johnson,F,1978-09-01, Herts,Geography,A*,Maths,D,History,D,Double Science,B,English Language,A,False
+JESSICA, Jackson,F,1979-11-03, Herts,Maths,U,English Language,A,History,A*,Double Science,G,Geography,E,False
+HANNAH, Wilson,F,1977-03-29, Herts,Double Science,E,Geography,E,English Language,U,Maths,D,History,D,False
+LEIGH, Wright,F,1977-04-07, Bath/Avon,English Literature,A*,Double Science,F,NA,A*,Maths,A,Geography,Invalid,False
+JAMIE, Wright,M,1979-06-30, Wolverhampton,English Language,A*,Maths,D,Geography,A,Double Science,Invalid,History,D,False
+STEPHANIE, Clark,F,1979-07-19, Wolverhampton,Geography,E,Maths,B,NA,B,Double Science,G,History,E,False
+JORDAN, Johnson,M,1978-07-02, Bath/Avon,English Literature,F,Double Science,A*,History,A*,Geography,F,Maths,C,False
+ALEXANDER, Taylor,M,1978-09-16, Wolverhampton,English Language,U,History,F,History,C,Geography,A*,Double Science,U,True
+JACOB, Jones,M,1978-01-06, Herts,English Language,F,History,F,English Literature,E,Double Science,A,Maths,F,False
+BETHANY, Jackson,F,1979-10-28, Herts,English Language,C,Geography,E,English Literature,F,History,C,Maths,D,False
+AMY, Roberts,F,1978-02-06, Bath/Avon,English Literature,D,English Language,B,Geography,U,Maths,F,Double Science,Invalid,False
+AARON, Jones,M,1978-04-03, Wolverhampton,History,F,English Language,C,Geography,U,Double Science,U,Double Science,F,True
+SHANNON, Taylor,O,1978-06-03, Wolverhampton,History,U,English Literature,E,Maths,A,Maths,A,Geography,B,True
+AMY, Jones,F,1979-07-01, Wolverhampton,History,C,English Literature,C,Maths,G,Double Science,A,English Language,A,False
+MARK, Wright,M,1978-09-04, Bath/Avon,Maths,E,Double Science,G,English Literature,D,English Language,F,History,G,False
+DANIEL, Walker,M,1978-01-01, Herts,Geography,A,English Literature,E,History,F,NA,F,Double Science,Invalid,False
+UNKNOWN, White,M,1978-07-23, Herts,History,E,Geography,C,Maths,G,English Language,D,NA,A*,False
+HOLLY, Davies,F,1977-03-20, Wolverhampton,English Literature,B,English Language,C,Double Science,F,NA,A*,Maths,A*,False
+DAVID, Taylor,M,1978-05-17, Wolverhampton,NA,G,History,A,Double Science,E,Geography,G,English Language,B,False
+UNKNOWN, Smith,M,1978-02-27, Herts,NA,B,Geography,B,Maths,F,History,E,Double Science,D,False
+JAMES, Davies,M,1977-09-21, Wolverhampton,Geography,A*,English Literature,A,Maths,C,English Language,G,History,F,False
+KIERAN, Wood,M,1979-10-28, Herts,English Language,C,Double Science,D,Maths,C,Geography,A+,History,Invalid,False
+VICTORIA, Clark,F,1979-12-24, Bath/Avon,English Literature,Invalid,History,E,English Language,C,Maths,A,Double Science,B,False
+ASHLEY, Johnson,M,1978-02-20, Wolverhampton,History,D,Geography,E,Maths,B,English Language,NA,Double Science,D,False
+JAKE, Clark,M,1979-05-20, Bath/Avon,Maths,C,English Literature,E,History,C,Geology,B,Geography,A,False
+ZOE, Taylor,F,1978-09-04, Herts,Geography,U,History,F,English Language,D,English Literature,B,Double Science,C,False
+ELEANOR, Hall,F,1979-12-12, Herts,Maths,C,Double Science,E,English Literature,D,Geography,U,English Language,Invalid,False
+CHARLOTTE, Wood,F,1977-12-24, Bath/Avon,English Literature,C,Maths,A*,Geography,E,English Language,C,History,D,False
+BRADLEY, Robinson,M,1978-01-18, Herts,History,E,English Language,D,English Literature,G,Double Science,U,Geography,A,False
+LUCY, Evans,F,Invalid Date, Bath/Avon,History,E,Geography,G,Maths,B,NA,C,Double Science,C,False
+JOSHUA, Thompson,M,1978-08-10, Wolverhampton,Double Science,A,Geography,U,Geology,E,Maths,A,English Literature,A,False
+NATHAN, Smith,M,1979-05-16, Wolverhampton,Geography,Invalid,Double Science,E,English Language,B,History,U,Maths,G,False
+TAYLOR, Williams,M,1979-07-04, Herts,English Literature,C,History,G,Geography,E,Maths,C,Double Science,G,False
+SAM, Clark,M,1979-11-07, Herts,Double Science,F,English Language,A*,History,D,Geography,B,English Literature,D,False
+ALEXIS, Brown,M,1978-10-12, Bath/Avon,Geography,F,English Language,G,Double Science,C,English Literature,U,Geology,E,False
+ALEXIS, White,F,1979-10-18, Herts,Double Science,C,English Language,A,English Literature,D,History,U,Maths,F,False
+ZOE, Johnson,F,Invalid Date, Herts,Geology,B,English Language,F,Maths,C,History,G,English Literature,D,False
+JORDAN, Wood,F,1979-06-28, Wolverhampton,Geography,A*,English Literature,A+,Double Science,F,Maths,A*,English Language,C,False
+SAM, Johnson,M,1979-04-20, Wolverhampton,Double Science,D,Maths,E,History,D,English Language,A+,Geography,G,False
+ELEANOR, Hall,U,1977-08-12, Herts,History,A,English Literature,A,Double Science,F,Maths,C,Geography,E,False
+UNKNOWN, Wilson,F,1979-06-21, Herts,English Literature,E,Maths,Invalid,Maths,A*,English Language,A,Geography,D,True
+ROBERT, Smith,M,1977-09-01, Herts,Double Science,D,Maths,C,History,A,English Literature,A*,English Language,U,False
+TAYLOR, Wood,M,1978-12-12, Wolverhampton,English Literature,A*,Double Science,F,English Language,F,Geography,C,Maths,U,False
+JORDAN, Wright,F,1978-01-12, Wolverhampton,Geography,A*,English Literature,Invalid,Maths,C,English Language,A,Double Science,G,False
+CHRISTOPHER, Wright,M,1977-11-27, Herts,English Literature,A,History,D,Geology,A,Maths,A,English Language,D,False
+KIRSTY, Jackson,F,1979-10-19, Wolverhampton,Geography,D,History,F,English Language,A,English Language,D,English Literature,G,True
+ANDREW, Wood,M,1979-06-23, Herts,Double Science,G,English Literature,C,English Language,B,NA,U,Maths,C,False
+THOMAS, Evans,M,1977-11-21, Wolverhampton,Geography,G,English Language,C,Double Science,B,Geology,A*,History,C,False
+ALEXANDER, Davies,M,1978-11-20, Wolverhampton,Geology,E,Maths,C,English Literature,D,English Language,C,Double Science,C,False
+CHRISTOPHER, Wood,M,1979-10-08, Wolverhampton,English Language,D,History,Invalid,Geography,C,English Literature,D,Maths,F,False
+SAMUEL, Jones,M,1979-11-06, Herts,English Literature,B,English Language,D,Geography,F,History,C,Double Science,G,False
+SAMUEL, ,M,Invalid Date, Bath/Avon,Maths,A*,Maths,C,Double Science,D,English Literature,B,NA,D,True
+NATASHA, Walker,U,1979-05-07, Herts,Double Science,A,English Literature,F,History,E,Maths,A*,Geography,F,False
