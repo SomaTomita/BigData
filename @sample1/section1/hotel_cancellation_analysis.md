@@ -20,7 +20,7 @@ Based on these findings, three recommendations are proposed:
 
 Collectively, these actions target the three most problematic factors—geography, lead time, and deposit policies—and, when tested in simulation, are projected to increase retained revenue by 8.2%.
 
-(500words)
+(494 words)
 
 ---
 
