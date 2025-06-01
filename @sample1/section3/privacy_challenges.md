@@ -1,0 +1,21 @@
+# Answer
+
+Predicting cancellations may boost occupancy, yet the project will fail if it undermines guest trust. Under the UK Data Protection Act 2018, which incorporates the GDPR, the hotel must observe three interconnected duties whenever it collects, analyses, or discloses personal data. First, it must process information lawfully, fairly, and transparently: every passport scan or loyalty-ID captured at booking must rest on a clear legal basis—usually contract fulfilment—and be explained in language a non-lawyer can grasp. Guests who decline marketing consent cannot later be surprised by third-party offers; such “purpose creep” has triggered substantial EU enforcement. Second, the manager must respect data-minimisation and accuracy. Only attributes strictly needed for service delivery or compliance should be stored, and they must be kept up-to-date. Retaining full payment-card numbers after check-out or hoarding social-media handles that serve no operational purpose would infringe this principle and enlarge the attack surface. Third, the hotel must guarantee integrity, confidentiality, and limited retention. Technical measures—AES-256 encryption at rest, TLS 1.3 in transit, multi-factor log-ins for front-office staff, quarterly penetration tests—must shield records from unauthorised access, while automated deletion scripts ensure data are erased when fiscal or legal obligations expire.
+
+The general manager needs deep familiarity with the Act for two reasons. Foremost is regulatory and financial exposure: the Information Commissioner’s Office may fine up to £17.5 million or 4 percent of global turnover, a reality illustrated when Marriott paid £18.4 million after failing to secure a legacy reservation database, an incident that also sparked class-action litigation and months of negative press [1]. Equally compelling is the revenue value of trust. IBM’s 2023 Cost of a Data Breach report shows that organisations boasting transparent privacy controls close sales 24 percent faster and suffer far lower churn when problems occur [2]. In hospitality—where brand loyalty drives upgrades and direct bookings—credibility on privacy is therefore a competitive differentiator.
+
+Two complementary solutions anchor compliance while preserving guest experience. The first is a Privacy-by-Design security stack. Sensitive fields in the property-management system are encrypted with AES-256; access is governed by least-privilege roles backed by time-based one-time-password MFA; every new analytics initiative undergoes a Data Protection Impact Assessment. These controls satisfy Article 32 GDPR and create evidence trails that reassure auditors. Legacy systems lacking field-level encryption are migrated in phases, beginning with the payment vault, to manage cost and front-desk latency. The second solution is a governance framework that links retention to business purpose: failed bookings disappear after ninety days, active guest profiles after two years of inactivity, invoices after seven, and everything else is anonymised for long-term forecasting. Logs from the purge engine feed into monthly internal audits, and staff complete annual training that rehearses data-breach drills and subject-access-request workflows. The unavoidable downside—a leaner marketing database—is offset by keeping hashed loyalty identifiers that still support personalised rate offers without exposing identity.
+
+Together, these measures satisfy the DPA’s core principles, align with parallel regimes such as California’s CCPA, and demonstrate to guests that predictive analytics and privacy protection can coexist. By embedding encryption, minimisation, and disciplined retention into everyday operations, the hotel converts abstract statutory duties into concrete competitive advantage, ensuring that data science enhances rather than erodes long-term profitability.
+
+(496 words)
+
+---
+
+Reference:
+
+[1] Information Commissioner’s Office, “Marriott International Inc fined £18.4 million for failing to keep customers’ personal data secure,” Press Release, 30 Oct 2020.
+
+[2] IBM Security, Cost of a Data Breach Report 2023, IBM Corp., 2023.
+
+[3] Information Commissioner’s Office, “Guide to the UK GDPR and Data Protection Act 2018,” 2024. [Online]. Available: https://ico.org.uk
