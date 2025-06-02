@@ -186,6 +186,7 @@ scores_5fold = cross_val_score(rf, X, y, cv=5)
 scores_10fold = cross_val_score(rf, X, y, cv=10)
 
 print("5-fold CV scores:", np.mean(scores_5fold))
+print("10-fold CV scores:", np.mean(scores_10fold))
 ```
 
 ## Conclusion
