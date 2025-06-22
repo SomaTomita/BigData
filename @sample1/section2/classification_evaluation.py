@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Read the dataset
-df = pd.read_csv("../hotel-reservations.csv")
+df = pd.read_csv("../data/hotel-reservations.csv")
 
 # Select relevant features for prediction
 features = [

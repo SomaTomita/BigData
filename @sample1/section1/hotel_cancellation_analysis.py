@@ -248,7 +248,7 @@ def analyze_lead_time(df):
 
 def main():
     # Load and preprocess data
-    df = load_and_preprocess_data("../hotel-reservations.csv")
+    df = load_and_preprocess_data("../data/hotel-reservations.csv")
 
     # Perform analyses
     top_countries, other_countries = analyze_cancellation_by_country(df)
