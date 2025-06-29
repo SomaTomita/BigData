@@ -1,0 +1,137 @@
+Table Users {
+  user_id integer [pk]
+  gender varchar
+  age integer
+}
+
+Table ConstructionTypes {
+  construction_type_id integer [pk, increment]
+  type_name varchar [unique]
+}
+
+Table RenovationTypes {
+  renovation_type_id integer [pk, increment]
+  type_name varchar [unique]
+}
+
+Table UtilityPaymentLevels {
+  utility_payment_level_id integer [pk, increment]
+  level_value integer [unique]
+  description varchar
+}
+
+Table Apartments {
+  apartment_id integer [pk]
+  reg_id integer
+  construction_type_id integer [ref: > ConstructionTypes.construction_type_id]
+  new_construction boolean [note: '0=FALSE, 1=TRUE']
+  elevator boolean [note: '0=FALSE, 1=TRUE']
+  floors_in_the_building integer
+  floor_area decimal
+  number_of_rooms integer
+  number_of_bathrooms integer
+  ceiling_height decimal
+  floor integer
+  furniture_status_id integer [ref: > FurnitureStatuses.furniture_status_id]
+  children_welcome boolean [note: '0=FALSE, 1=TRUE, 10=TRUE, 11=TRUE']
+  pets_allowed boolean [note: '0=FALSE, 1=TRUE, 10=TRUE, 11=TRUE']
+  utility_payment_level_id integer [ref: > UtilityPaymentLevels.utility_payment_level_id]
+  address_id integer [ref: > Addresses.address_id]
+  currency_id integer [ref: > Currencies.currency_id]
+  duration varchar
+  datetime timestamp
+}
+
+Table ApartmentPrices {
+  price_id integer [pk, increment]
+  apartment_id integer [ref: > Apartments.apartment_id]
+  price decimal
+  start_date timestamp
+  end_date timestamp
+}
+
+Table ApartmentRenovations {
+  apartment_renovation_id integer [pk, increment]
+  apartment_id integer [ref: > Apartments.apartment_id]
+  renovation_type_id integer [ref: > RenovationTypes.renovation_type_id]
+  start_date timestamp
+  end_date timestamp
+}
+
+Table BalconyTypes {
+  balcony_type_id integer [pk, increment]
+  type_name varchar [unique]
+}
+
+Table ApartmentBalconies {
+  apartment_id integer [ref: > Apartments.apartment_id]
+  balcony_type_id integer [ref: > BalconyTypes.balcony_type_id]
+  PRIMARY KEY (apartment_id, balcony_type_id)
+}
+
+Table FurnitureStatuses {
+  furniture_status_id integer [pk, increment]
+  status_name varchar [unique]
+}
+
+Table Currencies {
+  currency_id integer [pk, increment]
+  currency_code varchar [unique]
+  currency_name varchar
+}
+
+Table Addresses {
+  address_id integer [pk, increment]
+  full_address varchar
+  city varchar
+  district varchar
+  street varchar
+  building_number varchar
+}
+
+Table Amenities {
+  amenity_id integer [pk, increment]
+  amenity_name varchar [unique]
+}
+
+Table ApartmentAmenities {
+  apartment_id integer [ref: > Apartments.apartment_id]
+  amenity_id integer [ref: > Amenities.amenity_id]
+  PRIMARY KEY (apartment_id, amenity_id)
+}
+
+Table Appliances {
+  appliance_id integer [pk, increment]
+  appliance_name varchar [unique]
+}
+
+Table ApartmentAppliances {
+  apartment_id integer [ref: > Apartments.apartment_id]
+  appliance_id integer [ref: > Appliances.appliance_id]
+  PRIMARY KEY (apartment_id, appliance_id)
+}
+
+Table ParkingTypes {
+  parking_type_id integer [pk, increment]
+  type_name varchar [unique]
+}
+
+Table ApartmentParking {
+  apartment_id integer [ref: > Apartments.apartment_id]
+  parking_type_id integer [ref: > ParkingTypes.parking_type_id]
+  PRIMARY KEY (apartment_id, parking_type_id)
+}
+
+Table UserApartmentRoles {
+  user_id integer [ref: > Users.user_id]
+  apartment_id integer [ref: > Apartments.apartment_id]
+  role varchar
+  PRIMARY KEY (user_id, apartment_id)
+}
+
+// Academic References:
+// - E. F. Codd (1970). A Relational Model of Data for Large Shared Data Banks.
+// - T. J. Teorey et al. (2011). Database Modeling and Design: Logical Design. 5th ed.
+
+// Scalability and Hybrid Design Considerations:
+// For full-text search and geographical queries, consider combining with NoSQL solutions like Elasticsearch or PostGIS for enhanced performance and scalability. 
