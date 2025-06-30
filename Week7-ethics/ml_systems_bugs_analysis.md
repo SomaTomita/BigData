@@ -2,18 +2,27 @@
 
 ## Research Overview
 
-This empirical study investigates the nature and characteristics of bugs in machine learning (ML) systems by analyzing bug reports from real-world ML applications including Google, Microsoft, and Yahoo!. The study systematically categorizes bugs based on their causes, impacts, detection methods, and fixes.
+This empirical study investigates the nature and characteristics of bugs in machine learning (ML) systems by analyzing bug reports from real-world ML applications. The study systematically categorizes bugs based on their causes, impacts, detection methods, and fixes. The research represents the first large-scale, semi-automated analysis of bugs in machine learning systems, examining 500 fixed bugs across three major Apache projects.
+
+The study reveals that bugs in ML systems are more dense compared to those in open-source operating systems, with significant implications for development practices and system reliability. The research specifically focuses on algorithm-intensive systems, providing unique insights into the challenges of maintaining and debugging ML applications.
 
 ## Research Methodology
 
 ### Data Collection
 
-- Analyzed 63 bug reports from major ML applications
-- Sources included:
-  - Apache Mahout (Data Mining)
-  - Lucene (Information Retrieval)
-  - OpenNLP (Natural Language Processing)
+- Analyzed comprehensive dataset of bug reports:
+  - Apache Mahout: 314 closed bugs
+  - Apache Lucene: 1,533 bugs (highest density at 2.77 bugs/kLOC)
+  - Apache OpenNLP: 113 bugs (1.45 bugs/kLOC)
 - Data collected from JIRA repositories (snapshot as of May 11, 2012)
+- Focus on closed bugs to ensure complete analysis of fix patterns
+
+### Bug Density Analysis
+
+- Lucene: 2.77 bugs per thousand lines of code (kLOC)
+- Mahout: 1.79 bugs/kLOC
+- OpenNLP: 1.45 bugs/kLOC
+- Higher density compared to traditional software systems
 
 ### Classification Process
 
@@ -74,6 +83,21 @@ This empirical study investigates the nature and characteristics of bugs in mach
    - Performance issues with large-scale data
    - Memory usage problems
    - Scalability challenges
+
+### Data Preprocessing Challenges
+
+1. **Error Types and Impact**
+
+   - Assignment/initialization bugs (13.00% of total)
+   - Data structure handling errors (5.60%)
+   - Feature preprocessing issues leading to unexpected algorithm behavior
+   - Incorrect data handling causing system failures
+
+2. **Resolution Patterns**
+   - Assignment/initialization bugs average 9.92 days to fix
+   - Simpler to resolve compared to algorithmic issues
+   - Often require documentation and code comment updates
+   - Impact of proper feature scaling and normalization on accuracy
 
 ## Recommendations
 
@@ -169,13 +193,20 @@ This empirical study investigates the nature and characteristics of bugs in mach
 
 ### Bug Fix Complexity (Table IX & X)
 
-1. **Revision Requirements**
+1. **Fixing Duration Analysis**
+
+   - Algorithm/method bugs average 91.72 days to fix
+   - Timing/optimization bugs take second longest to resolve
+   - Most bugs (60-70%) resolved in first attempt
+   - Complex algorithmic issues may require multiple revisions
+
+2. **Revision Requirements**
 
    - Timing/optimization bugs need most revisions (mean: 2.4167)
    - Algorithm/method bugs: mean of 1.9646 revisions
    - Most other categories require 1-2 revisions
 
-2. **Fix Effort Distribution**
+3. **Fix Effort Distribution**
    - Algorithm/method:
      - 62.83% fixed in first attempt
      - 15.04% need 2 attempts
@@ -242,6 +273,16 @@ These statistics provide valuable insights for ML system development teams, help
 ## Conclusion
 
 The study highlights the unique nature of bugs in ML systems and the need for specialized approaches to testing and debugging. Traditional software engineering practices alone are insufficient for ensuring ML system reliability. The findings suggest a need for new tools and methodologies specifically designed for ML system development and maintenance.
+
+This research makes several key contributions to the field:
+
+- First large-scale, semi-automated analysis of bugs in machine learning systems
+- Comprehensive categorization of 500 bug reports across major ML frameworks
+- Detailed analysis of bug characteristics, severity, and resolution patterns
+- Evidence that ML systems have higher bug density than traditional software
+- Insights into the relationship between bug types and fixing complexity
+
+The findings emphasize the importance of developing specialized tools and practices for ML system development, particularly focusing on algorithm implementation and optimization issues that proved most challenging to resolve.
 
 ## Future Research Directions
 
